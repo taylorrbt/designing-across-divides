@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0"/>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/file.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+  <header>
+    <h2>West Virginia University, Morgantown, WV</h2>
+    <nav>
+      <a href="index.html"><img src="images/logo.png" class="img-responsive" alt="logo for designing across divides">
+      <ul class="navagation">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="events.html">EVENTS</a></li>
+        <li><a href="calls.html">CALLS</a></li>
+        <li><a href="speakers.html">SPEAKER</a></li>
+        <li><a class="active" href="gallery.html" target="_self">GALLERY</a></li>
+      </ul>
+    </nav>
+
+    <div class="banner">
+      <img src="images/background1.png" class="img-responsive" alt="background of header">
+      <h2>CO-CREATING TOOLS FOR COMMUNITY CHANGE</h2>
+      <h1>Designing Across Divides</h1>
+    </div>
+  </header>
+
+<div class="gallery">
+    <h2>GALLERY</h2>
+  </div>
+
+  <div class="photogrid">
+      <ul>
+      <li><img src="images/.png" class="img-responsive" alt=""></li>
+      <li><img src="images/.png" class="img-responsive" alt=""></li>
+      <li><img src="images/.png" class="img-responsive" alt=""></li>
+      <li><img src="images/.png" class="img-responsive" alt=""></li>
+      <li><img src="images/.png" class="img-responsive" alt=""></li>
+      </ul>
+  </div>
+
+
+<footer>
+  <div class="quote">
+  <img src="images/footerlogo.png" class="img-responsive" alt="image of">
+  <h2>Conicting doctrines share the truth between them</h2>
+  <h3>John Stuart Mill</h3>
+</div>
+
+<div class="grid">
+<ul>
+  <li>Calendar</li>
+  <li>To view more information about events, please click here.</li>
+<ul>
+  <ul>
+    <li>Contact</li>
+    <li>Morgantown, WV - 26505</li>
+    <li>e: efaulkes@mail.wvu.edu</li>
+    <ul>
+    <ul>
+      <li>Social</li>
+      <li><a href="mailto:evefaulkes@mail.wvu.edu"><img src="gmailicon.png"></a></li>
+      <li><a href="http://www.instagram.com/designingacrossdivides"><img src="instaicon.png"></a></li>
+      <li><a href="http://www.facebook.com/designingacrossdivides"><img src="facebookicon.png"></a></li>
+      <ul>
+  </div>
+
+  <div class="sponsors">
+    <h2>Hosted By</h2>
+    <ul>
+      <li>West Virginia University</li>
+      <li>College of Creative Arts</li>
+      <li>School of Community Design and Development</li>
+      <li>Department of Public Administration</li>
+      <li>School of Media</li>
+      <li>Office of Diversity, Equity and Unclusion</li>
+      <li>City of Morgantown</li>
+      <li>Pittsburgh Chapter of AIGA</li>
+      <li>University and College Art and Design Association</li>
+    </ul>
+    <span>Copyright @ Designing Across Divides</span>
+  </div>
+</footer>
+</body>
+</html>
