@@ -1,18 +1,19 @@
-header h2 {
+.location h2{
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 14px;
   background-color: black;
   color: white;
   width: 100%;
   text-align: center;
-  top: 1%;
+  height: 30px;
   padding: 10px;
+  float: left;
 }
 
 nav a img {
-  width: 10%;
+  width: 15%;
   float: left;
-  top: 4%;
+  margin-top: -10px;
 }
 
 nav ul {
@@ -20,7 +21,7 @@ nav ul {
   font-size: 14px;
   padding: 10px;
   float: right;
-
+  margin-top: 10px;
 }
 
 nav li {
@@ -34,16 +35,22 @@ nav li a{
   color: black;
 }
 
-.nav a.active {
-  border-bottom: 2px solid #da63a2;
-  text-decoration: none;
-  color: #da63a2;
+nav a:hover{
+  color:pink;
+}
+nav li a:hover{
+  color: #e00aae;
+}
+
+nav img {
+
 }
 
 .banner img {
   width: center;
   position: relative;
   margin-top: 20px;
+  width: 100%;
 }
 
 .banner {
@@ -54,45 +61,45 @@ nav li a{
   font-family: 'Comfortaa', cursive;
   background-color: #da63a2;
   color: white;
-  font-size: 13px;
-  width: 90%;
-  z-index: 999;
+  font-size: 11px;
+  width: 49%;
   position: absolute;
-  margin-top: 120px;
+  margin-top: -230px;
+  padding: .7%;
 }
 
 .banner h1 {
   font-family: acumin-pro-extra-condensed, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 70px;
+  font-size: 60px;
   color: white;
   float: left;
-  margin-left: 20px;
+  margin-left: 4px;
   position: absolute;
-  top: 21%;
+  top: 23%;
 }
 
 .banner h4 {
   font-family: acumin-pro-extra-condensed, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 70px;
+  font-size: 65px;
   color: white;
   float: left;
-  margin-left: 20px;
+  margin-left: 4px;
   position: absolute;
-  top: 30%;
+  top: 31%;
 }
 
 .banner h3 {
   font-family: acumin-pro-extra-condensed, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 70px;
+  font-size: 65px;
   color: white;
   float: left;
-  margin-left: 20px;
+  margin-left: 4px;
   position: absolute;
   top: 37%;
 }
@@ -104,6 +111,7 @@ nav li a{
   font-size: 60px;
   text-align: center;
   color:#da63a2;
+  margin-top: 2%;
 }
 
 .intro p {
@@ -114,6 +122,7 @@ nav li a{
   text-align: left;
   margin-left: 60px;
   width: 70%;
+  margin-bottom: 20px;
 }
 
 .intro button {
@@ -124,9 +133,13 @@ nav li a{
   font-style: normal;
   width: 25%;
   padding: 7px;
-  margin-right: 70px;
+  margin-left: 250px;
   background-color: #da63a2;
   margin-bottom: 20px;
+}
+
+.intro a {
+      color: white;
 }
 
 .intro img {
@@ -140,6 +153,10 @@ section.homepage {
 .event1 {
     background-color: #231f20;
     width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+    padding: 10px;
 }
 .event1 h2 {
   border-bottom: solid 6px #231f20;
@@ -148,14 +165,16 @@ section.homepage {
   font-size: 19px;
   padding: 20px;
   line-height: 30px;
+  margin-top: -20px;
+
 }
+
 .event1 h3 {
-  color: white;
-  font-family: 'Comfortaa', cursive;
-  font-size: 13px;
-  padding: 20px;
-  line-height: 20px;
-  margin-top: -30px;
+  color:white;
+  width: 90%;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: -20px;
 }
 
 
@@ -168,8 +187,6 @@ section.homepage {
 .slide1 h3 {
   font-size: 20px;
   font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
-  display: block;
   padding: 30px;
 }
 
@@ -178,9 +195,11 @@ section.homepage {
   font-family: 'PT Sans Narrow', sans-serif;
   text-align: center;
   margin-bottom: 50px;
+    margin-left: 10px;
+    margin-top: -20px;
 }
 
-.slide1 button {
+.slide1 a button {
   font-size: 14px;
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -189,11 +208,11 @@ section.homepage {
   width: 25%;
   padding: 7px;
   background-color: #231f20;
-  margin-left: 145px;
+  margin-left: 25px;
   margin-bottom: 30px;
 }
 
-.slide1 img {
+.slide1img img {
   width: 100%;
 }
 
@@ -210,19 +229,19 @@ section.homepage {
 .slide2 h3 {
   font-size: 20px;
   font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
-  display: block;
   padding: 30px;
 }
 
 .slide2 h2 {
   font-size: 50px;
   font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
+    margin-left: 25px;
+    margin-top: -20px;
 }
 
-.slide2 button {
+.slide2 a button {
   font-size: 14px;
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -231,11 +250,12 @@ section.homepage {
   width: 25%;
   padding: 7px;
   background-color: #231f20;
-  margin-left: 145px;
+  margin-left: 25px;
   margin-bottom: 30px;
 }
 
-.slide2 img {
+
+.slide2img img {
   width: 100%;
 }
 
@@ -252,19 +272,19 @@ section.homepage {
 .slide3 h3 {
   font-size: 20px;
   font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
-  display: block;
   padding: 30px;
 }
 
 .slide3 h2 {
   font-size: 50px;
   font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
+    margin-left: 25px;
+    margin-top: -20px;
 }
 
-.slide3 button {
+.slide3 a button {
   font-size: 14px;
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -273,11 +293,12 @@ section.homepage {
   width: 25%;
   padding: 7px;
   background-color: #231f20;
-  margin-left: 145px;
+  margin-left: 25px;
   margin-bottom: 30px;
 }
 
-.slide3 img {
+
+.slide3img img {
   width: 100%;
 }
 
@@ -296,19 +317,19 @@ section.homepage {
 .slide4 h3 {
   font-size: 20px;
   font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
-  display: block;
   padding: 30px;
 }
 
 .slide4 h2 {
   font-size: 50px;
   font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
+    margin-left: 25px;
+    margin-top: -20px;
 }
 
-.slide4 button {
+.slide4 a button {
   font-size: 14px;
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -317,11 +338,11 @@ section.homepage {
   width: 25%;
   padding: 7px;
   background-color: #231f20;
-  margin-left: 145px;
+  margin-left: 25px;
   margin-bottom: 30px;
 }
 
-.slide4 img {
+.slide4img img {
   width: 100%;
 }
 
@@ -392,8 +413,10 @@ grid-template-columns: 7(1fr;)
 /*CALLS PAGE*/
 .events h2{
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   color:#da63a2;
+  border-bottom: solid 4px #80d5d8;
+
 }
 
 iframe {
@@ -407,7 +430,7 @@ article {
 
 .calls h2{
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   color:#80d5d8;
   border-bottom: solid 4px #f2bb18;
 }
@@ -443,7 +466,6 @@ article {
   font-size: 14px;
   width: 80%;
   margin-left: 30px;
-  border-bottom: solid 4px #f2bb18;
 }
 
 
@@ -479,7 +501,6 @@ article {
   font-size: 14px;
   width: 80%;
   margin-left: 30px;
-  border-bottom: solid 4px #80d5d8;
 }
 
 .calls2 h4 {
@@ -490,13 +511,13 @@ article {
 
 .calls2 a button {
   font-size: 14px;
-  color: white;
+  color: black;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 700;
   font-style: normal;
   width: 25%;
   padding: 7px;
-  background-color: #da63a2;
+  background-color: #80d5d8;
   float: right;
   margin-bottom: 30px;
 }
@@ -504,8 +525,9 @@ article {
 /*SPEAKERS PAGE*/
 .speaker h2{
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   color:#f2bb18;
+  border-bottom: solid 4px #da63a2;
 }
 
 .speaker h3 {
@@ -514,6 +536,21 @@ article {
   color:white;
   padding: 20px;
   background-color: #80d5d8;
+}
+
+.column1 {
+  position: relative;
+}
+.column1 ul {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  width: 70%;
+}
+
+.column1 img {
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .speaker1 h2 {
@@ -531,15 +568,13 @@ article {
   margin-top: 50px;
   margin-left: 20px;
 }
-.speaker1 ul {
-    width: 10%;
-}
+
 .speaker1 li {
   list-style: none;
 }
 .speaker1 li img {
   width: 10%;
-  z-index: 999;
+
   float: right;
   right: 90px;
 }
@@ -567,7 +602,7 @@ article {
   margin-left: 20px;
   position: absolute;
   margin-top: 20px;
-  color:white;
+  color:black;
 }
 
 .speaker2 h3 {
@@ -576,17 +611,14 @@ article {
   position: absolute;
   margin-top: 50px;
   margin-left: 20px;
-  color:white;
-}
-.speaker2 ul {
-    width: 10%;
+  color:black;
 }
 .speaker2 li {
   list-style: none;
 }
 .speaker2 li img {
   width: 10%;
-  z-index: 999;
+
   float: right;
   right: 90px;
 }
@@ -624,15 +656,12 @@ article {
   margin-left: 20px;
   color:black;
 }
-.speaker3 ul {
-    width: 10%;
-}
 .speaker3 li {
   list-style: none;
 }
 .speaker3 li img {
   width: 10%;
-  z-index: 999;
+
   float: right;
   right: 90px;
 }
@@ -671,15 +700,12 @@ article {
   margin-left: 20px;
   color:white;
 }
-.speaker4 ul {
-    width: 10%;
-}
 .speaker4 li {
   list-style: none;
 }
 .speaker4 li img {
   width: 10%;
-  z-index: 999;
+
   float: right;
   right: 90px;
 }
@@ -705,7 +731,7 @@ article {
   background-color: #231f20;
   color: #da63a2;
   font-size: 15px;
-  padding: 20px;
+  padding: 10px;
   font-family: 'PT Sans Narrow', sans-serif;
 }
 /*SPEAKERS PAGE ENDED*/
@@ -713,26 +739,23 @@ article {
 
 .gallery h2{
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   color:#da63a2;
   border-bottom: solid 4px #80d5d8;
 }
 
-.photogrid li img {
+.photogrid ul{
+  margin-right: 60px;
+}
+
+.photogrid img {
   width: 100%;
   margin-bottom: 20px;
-
 }
-
-.photogrid ul {
-  float: left;
-  padding: 0;
-
-}
-
-.photogrid li {
+.photogrid li{
+  margin-left:10px;
+  margin-top:10px;
   list-style: none;
-
 }
 /*GALLERY PAGE ENDED*/
 
@@ -750,23 +773,6 @@ article {
 
 footer {
   background-color: #f2bb18;
-}
-
-.quote h2 {
-  color:white;
-  font-size: 35px;
-  font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
-}
-
-.quote h3 {
-  color:black;
-  font-size: 20px;
-  font-family: 'PT Sans Narrow', sans-serif;
-  text-align: center;
-  border-bottom: 2px solid white;
-  margin-bottom: 20px;
-  margin-top: -10px;
 }
 
 .grid {
@@ -788,6 +794,10 @@ footer {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 14px;
   text-align: center;
+}
+
+.grid li:nth-child(2) a {
+  color:white;
 }
 
 .grid li:nth-child(3) {
@@ -883,46 +893,54 @@ span.copyright {
 
   .banner img {
     width: 100%;
+    margin: auto;
+
   }
 
   .banner h2 {
     font-size: 20px;
-    width: 90%;
-    margin-left: -20px;
-    margin-top: 140px;
+    width: 50%;
+    margin-top: -450px;
   }
 
   .banner h1 {
-    font-size: 160px;
-    top:21%;
+    font-size: 120px;
+    top:27%;
   }
 
   .banner h4 {
-    font-size: 160px;
-    top: 39%;
+    font-size: 120px;
+    top: 42%;
   }
 
   .banner h3 {
-    font-size: 160px;
-    top: 55%;
+    font-size: 120px;
+    top: 56%;
   }
 
   .intro h2 {
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 70px;
+    margin-bottom: 20px;
   }
 
   .intro p {
     font-size: 16px;
     width: 60%;
-    margin-left: 160px;
+    margin-left: 240px;
   }
 
-  .intro button {
+  .intro a button {
     font-size: 14px;
     width: 15%;
-    margin-right: 170px;
+    color: white;
+    margin-left: 500px;
     margin-bottom: 60px;
+  }
+
+  .intro img
+  {
+    margin-bottom: 30px;
   }
 
   .event1 h2 {
@@ -932,63 +950,128 @@ span.copyright {
     font-size: 16px;
   }
 
+.slide1 {
+  float: left;
+  width:50%;
+  height: 258px;
+}
   .slide1 h3 {
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: -1px;
+
   }
 
   .slide1 h2 {
-    font-size: 60px;
+    font-size: 40px;
+    margin-left: -47px;
   }
+
+  .slide1 h1 {
+    font-size: 40px;
+  }
+
 
   .slide1 button {
-    font-size: 20px;
-    width: 20%;
-    margin-left: 330px;
+    font-size: 18px;
+    width: 30%;
+    margin-left: 140px;
+    margin-top: -50px;
+
   }
 
-    .slide2 h3 {
-      font-size: 30px;
+.slide1img {
+  float: left;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.slide2 {
+  float: left;
+  width:50%;
+  height: 258px;
+
+}
+.slide2 h3 {
+  font-size: 20px;
+  margin-top: -1px;
+}
+
+.slide2 h2 {
+  font-size: 40px;
+}
+
+.slide2 button {
+  font-size: 18px;
+  width: 30%;
+  margin-left: 140px;
+  margin-top: -50px;
+
+}
+    .slide2img {
+      float: left;
+      width: 50%;
+      margin-bottom: 30px;
     }
 
-    .slide2 h2 {
-      font-size: 60px;
-    }
+    .slide3 {
+      float: left;
+      width:50%;
+      height: 258px;
 
-    .slide2 button {
+    }
+    .slide3 h3 {
       font-size: 20px;
-      width: 20%;
-      margin-left: 330px;
+      margin-top: -1px;
     }
 
+    .slide3 h2 {
+      font-size: 40px;
+    }
 
-      .slide3 h3 {
-        font-size: 30px;
+    .slide3 button {
+      font-size: 18px;
+      width: 30%;
+      margin-left: 140px;
+      margin-top: -50px;
+
+    }
+      .slide3img {
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+      }
+      .slide4 {
+        float: left;
+        width:50%;
+        height: 258px;
+
       }
 
-      .slide3 h2 {
-        font-size: 60px;
-      }
-
-      .slide3 button {
+      .slide4 h3 {
         font-size: 20px;
-        width: 20%;
-        margin-left: 330px;
+        margin-top: -1px;
       }
 
+      .slide4 h2 {
+        font-size: 40px;
+      }
 
-        .slide4 h3 {
-          font-size: 30px;
-        }
+      .slide4 button {
+        font-size: 18px;
+        width: 30%;
+        margin-left: 140px;
+        margin-top: -50px;
 
-        .slide4 h2 {
-          font-size: 60px;
+      }
+        .slide4img {
+          float: left;
+          width: 50%;
+          margin-bottom: 30px;
         }
+.whatsnext {
+  float: left;
+}
 
-        .slide4 button {
-          font-size: 20px;
-          width: 20%;
-          margin-left: 330px;
-        }
   .whatsnext h2 {
     font-size: 30px;
   }
@@ -996,6 +1079,9 @@ span.copyright {
     font-size: 16px;
   }
 
+.event1 h2 {
+  font-size:21px;
+}
   .events h2{
     margin-top: 130px;
     margin-left: 30px;
@@ -1008,10 +1094,11 @@ span.copyright {
   .calls h2{
     margin-top: 130px;
     margin-left: 30px;
+    margin-bottom: 50px;
   }
 
   .calls1 img {
-    width: 30%;
+    width: 52%;
     float: left;
     margin-right: 20px;
   }
@@ -1021,9 +1108,14 @@ span.copyright {
     margin-left: 40px;
   }
 
+  .calls1 p {
+    width: 100%;
+    font-size: 13px;
+  }
+
 
   .calls2 img {
-    width: 30%;
+    width: 50%;
     float: left;
     margin-right: 20px;
   }
@@ -1031,7 +1123,12 @@ span.copyright {
   .calls2 {
     width: 90%;
     margin-left: 40px;
+    margin-top: 20px;
   }
+
+.calls2 h2 {
+  margin-top: 57px;
+}
 
   .calls2 a button {
     margin-right: 50px;
@@ -1115,7 +1212,22 @@ span.copyright {
       font-size: 15px;
     }
 
+    .photogrid ul{
+      display:inline-grid;
+      grid-template-columns: repeat(2,1fr);
+      margin-right: 35px;
+s    }
 
+    .photogrid li{
+      margin-left:10px;
+      margin-top:10px;
+      list-style: none;
+
+    }
+.photogrid img {
+  margin-right: 20px;
+  padding-right: 20px;
+}
 
     .formoreinfo h2 {
       font-size: 18px;
@@ -1147,15 +1259,6 @@ span.copyright {
     margin-left: 230px;
   }
 
-  .quote h2 {
-    font-size: 40px;
-  }
-
-  .quote h3 {
-    font-size: 25px;
-  }
-
-
   .grid ul{
     display: inline;
     width: 30%;
@@ -1165,6 +1268,7 @@ span.copyright {
 
   .grid li:first-child {
     font-size: 30px;
+    margin-top: 15px;
   }
 
   .grid li:nth-child(2) {
@@ -1212,27 +1316,40 @@ body {
     margin-top: 20px;
   }
 
+nav a img {
+  width: 10em;
+  margin-top: 3px;
+}
+
   .banner h2 {
     font-size: 20px;
-    width: 60%;
+    width: 40%;
     margin-left: 0;
-    margin-top: 190px;
+    margin-top: -530px;
+    padding: 10px;
+    margin-top: -660px;
   }
 
   .banner h1 {
     font-size: 160px;
-    top:40%;
+    top:30%;
+    margin-left: 20px;
   }
 
   .banner h4 {
     font-size: 160px;
-    top: 60%;
+    top: 50%;
+    margin-left: 20px;
+
   }
 
   .banner h3 {
     font-size: 160px;
-    top: 78%;
+    top: 70%;
+    margin-left: 20px;
+
   }
+
 
   .intro h2 {
     margin-top: 40px;
@@ -1241,20 +1358,24 @@ body {
 
   .intro p {
     font-size: 20px;
-    width: 80%;
-    margin-left: 120px;
+    width: 60%;
+    margin-left:400px;
     margin-bottom: 20px;
   }
 
   .intro button {
     font-size: 14px;
     width: 15%;
-    margin-right: 170px;
+    margin-left: 500px;
     margin-bottom: 60px;
   }
 
-
-
+.intro img {
+  width: 80%;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
 
 
@@ -1268,53 +1389,117 @@ body {
     font-size: 23px;
   }
   .event1 h3 {
-    font-size: 16px;
+    font-size: 15px;
+        color:white;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: -20px;
+        margin-bottom: 30px;
   }
 
   .slide1 h3 {
     font-size: 30px;
+    margin-left: 20px;
+    margin-top: 70px;
+    color: white;
   }
 
+.slide1 {
+  height:384px;
+}
   .slide1 h2 {
     font-size: 60px;
+    margin-left: 50px;
+float: left;
+margin-top: -20px;
   }
 
-  .slide1 button {
+  .slide1 a button {
     font-size: 20px;
     width: 20%;
-    margin-left: 330px;
+    float: left;
+    margin-left: 50px;
+    margin-top: -30px;
+
+  }
+  .slide2 h3 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 70px;
   }
 
-    .slide2 h3 {
-      font-size: 30px;
-    }
+.slide2 {
+  height:384px;
+}
+  .slide2 h2 {
+    font-size: 60px;
+    margin-left: 50px;
+float: left;
+margin-top: -20px;
+  }
 
-    .slide2 h2 {
-      font-size: 60px;
-    }
+  .slide2 a button {
+    font-size: 20px;
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+    margin-top: -30px;
 
-    .slide2 button {
-      font-size: 20px;
-      width: 20%;
-      margin-left: 330px;
-    }
+  }
 
+  .slide3 h3 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 70px;
+  }
 
-      .slide3 h3 {
-        font-size: 30px;
-      }
+.slide3 {
+  height:384px;
+}
+  .slide3 h2 {
+    font-size: 60px;
+    margin-left: 50px;
+float: left;
+margin-top: -20px;
+  }
 
-      .slide3 h2 {
-        font-size: 60px;
-      }
+  .slide3 a button {
+    font-size: 20px;
+    width: 20%;
+    float: left;
+    margin-left: -300px;
+    margin-top: 65px;
 
-      .slide3 button {
-        font-size: 20px;
-        width: 20%;
-        margin-left: 330px;
-      }
+  }
 
+  .slide4 h3 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 70px;
+  }
 
+.slide4 {
+  height:384px;
+}
+  .slide4 h2 {
+    font-size: 60px;
+    margin-left: 50px;
+float: left;
+margin-top: -20px;
+  }
+
+  .slide4 a button {
+    font-size: 20px;
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+    margin-top: -30px;
+
+  }
+
+section {
+  background-color: white;
+}
         .slide4 h3 {
           font-size: 30px;
         }
@@ -1326,13 +1511,17 @@ body {
         .slide4 button {
           font-size: 20px;
           width: 20%;
-          margin-left: 330px;
+          margin-left: 230px;
         }
+
+.whatsnext {
+  float: left;
+}
   .whatsnext h2 {
     font-size: 30px;
   }
   .whatsnext p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .events h2{
@@ -1344,10 +1533,7 @@ body {
     margin-left: 30px;
   }
 
-.calls1 {
-  border-bottom: solid 2px #231f20;
 
-}
   .calls h2{
     margin-top: 130px;
     margin-left: 30px;
@@ -1364,9 +1550,8 @@ body {
     margin-left: 40px;
   }
 
-
   .calls2 img {
-    width: 30%;
+    width: 40%;
     float: left;
     margin-right: 20px;
   }
@@ -1374,7 +1559,7 @@ body {
   .calls2 {
     width: 90%;
     margin-left: 40px;
-    margin-top: 90px;
+    margin-top: 250px;
   }
 
   .calls2 a button {
@@ -1383,6 +1568,11 @@ body {
     font-size: 20px;
     width: 20%;
     margin-bottom: 70px;
+    }
+
+
+    .column1 img {
+        width: 100%;
     }
 
     .speaker h2{
@@ -1460,6 +1650,19 @@ body {
       font-size: 15px;
     }
 
+    .photogrid ul{
+      display:inline-grid;
+      grid-template-columns: repeat(3,1fr);
+      margin-right: 35px;
+    }
+
+    .photogrid li{
+      margin-left:20px;
+      margin-top:10px;
+      list-style: none;
+      margin-right: 10px;
+    }
+
 
 
     .formoreinfo h2 {
@@ -1473,21 +1676,40 @@ body {
   margin-left: 20px;
 }
 
+.grid li:nth-child(2) {
+  width: 80%;
+  margin: auto;
+}
+
+.grid li:first-child {
+  margin-top: 10px;
+}
+
+.social h3 {
+  margin-top: 10px;
+
+}
 
 
 
 
 
 
+.sponsors {
+  margin: 0 auto;
+  width: 100%;
+
+}
 
 
 
 
 
-
-
+span.copyright {
+  width: 100%;
+}
 
 
   .footerlogo {
-    margin-left: 300px;
+    margin-left: 370px;
   }
